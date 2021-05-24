@@ -18,8 +18,8 @@ jobs:
 
     - name: commit isort changes
       run:
-        git config --local user.email "action@github.com"
-        git config --local user.name "Github Action"
+        git config --local user.email "kelvinmunenemgithub@github.com"
+        git config --local user.name "Kelvin Munene"
         git add -A && git diff-index --cached --quiet HEAD || git commit -m "isort"
 
     - name: push isort changes
