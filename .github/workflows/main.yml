@@ -18,7 +18,7 @@ jobs:
 
     - name: commit isort changes
       run:
-        git config --local user.email "kelvinmunenemgithub@github.com"
+        git config --local user.email "kelvinmunenemgithub@gmail.com"
         git config --local user.name "kelvinmunenemgithub"
         git add -A && git diff-index --cached --quiet HEAD || git commit -m "isort"
 
